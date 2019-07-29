@@ -1,0 +1,86 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*aqui empeza la navegacion*/
+
+#navegacion{
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 0px;
+}
+#navegacion li{margin-bottom: 0px;}
+#navegacion li a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 0px;
+}
+#navegacion li a:hover{
+	background-color: red;
+}
+#nave{
+	background-color: #040A1D;
+}
+/*aqui termina la navegacion*/
+
+/*aqui empeza la cuenta y carrito*/
+#cuenta{
+	position: relative;
+	list-style: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	margin-bottom: 0px;
+}
+#cuenta >li ul{
+	position: absolute;
+	border: 1px solid;
+	top: 58px;
+	list-style: none;
+	display: -webkit-flex8
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 260px;
+	flex-wrap: wrap;
+	justify-content: center;
+	display: none;
+	transition-duration: 0.5s;
+	
+
+	
+	
+}
+#cuenta li a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+}
+#cuenta #sub:hover #sub1 {
+	display: block;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	
+	transition-duration: 0.5s;
+
+	
+	
+
+}
+/*aqui termina la cuenta y carrito*/

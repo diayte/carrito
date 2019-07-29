@@ -1,0 +1,1 @@
+<?php echo 'hola soy index en modulo'; ?>
